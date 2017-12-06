@@ -1,0 +1,25 @@
+<html>
+ <head>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js"></script>
+   <script src="sketch.js"></script>
+	<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+	<div id='myContainer'></div>
+	
+	<span class="buttons">
+	<p>All: </p><button onclick="allOn();redraw();">All On</button><button onclick="allOff();redraw();">All Off</button>
+	<p>Loop: </p><button onclick="loop();">Loop</button><button onclick="noLoop();">Stop Loop</button>
+	</span>
+	<br><br>
+	<span class="buttons">
+	<p>440hz: </p><button onclick="on(one);redraw();">ON</button><button onclick="off(one);redraw();">OFF</button>
+	<p>880hz: </p><button onclick="on(onep5);redraw();">ON</button><button onclick="off(onep5);redraw();">OFF</button>
+	<p>1320hz: </p><button onclick="on(two);redraw();">ON</button><button onclick="off(two);redraw();">OFF</button>
+	<p>1760hz: </p><button onclick="on(twop5);redraw();">ON</button><button onclick="off(twop5);redraw();">OFF</button>
+	<p>2200hz: </p><button onclick="on(three);redraw();">ON</button><button onclick="off(three);redraw();">OFF</button>
+	<p>2640hz: </p><button onclick="on(four);redraw();">ON</button><button onclick="off(four);redraw();">OFF</button>
+  </span>
+
+</body>
+</html>

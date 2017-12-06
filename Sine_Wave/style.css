@@ -1,0 +1,18 @@
+*{
+padding:0;
+margin:0;
+}
+
+#myContainer{
+	position:relative;
+	z-index:1000;
+	display:block;
+};
+
+.buttons button{
+	display: inline;
+}
+
+.buttons p{
+	display: inline;
+}
